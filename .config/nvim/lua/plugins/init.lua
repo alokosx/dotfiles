@@ -14,7 +14,7 @@ return {
   },
 
   {
-    "hrsh7th/nvim-cmp",
+     "hrsh7th/nvim-cmp",
     dependencies = {
       {
         -- snippet plugin
@@ -67,15 +67,7 @@ return {
     end,
   },
 
-  -- { "nvzone/volt" , lazy = true },
-  --
-  -- { "nvzone/menu" , lazy = true,
-  --   config = function()
-  --     require("menu").open()
-  --   end,
-  -- },
-
-  {
+   {
     "nvim-treesitter/nvim-treesitter",
     opts = {
       ensure_installed = {
@@ -89,18 +81,6 @@ return {
         "tsx",
       },
     },
-  },
-
-  {
-    "MeanderingProgrammer/render-markdown.nvim",
-    dependencies = { "nvim-treesitter/nvim-treesitter", "echasnovski/mini.nvim", "nvim-tree/nvim-web-devicons" }, -- if you prefer nvim-web-devicons
-    ft = { "markdown" },
-    opts = {},
-    config = function()
-      require("render-markdown").setup {
-        render_modes = true,
-      }
-    end,
   },
 
   {

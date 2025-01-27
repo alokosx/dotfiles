@@ -6,7 +6,7 @@ local options = {
     javascriptreact = { "prettier" },
     typescript = { "prettier" },
     typescriptreact = { "prettier" },
-
+    markdown = { "mdformat" },
     css = { "prettier" },
     html = { "prettier" },
     json = { "prettier" },
